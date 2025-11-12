@@ -1,3 +1,5 @@
-#!/usr/bin/env python3
+# ✅ Fixed: added missing colon
+def add_numbers(a, b):
+    return a + b
 
-poor_syntax = 2 * #
+print(add_numbers(3, 5))

@@ -1,3 +1,3 @@
-#!/usr/bin/env python3
-
-wrong_type = 'abc' + 123
+# ✅ Fixed: convert the int to string before concatenation
+sum = "2" + str(2)
+print(sum)
